@@ -12,7 +12,7 @@ public class SongFormer implements Runnable {
 
     public void run() {
         String songTitle = "Nothing else matters";
-        System.out.println("Потік: " + thread.getName() + ", сформував файл: " + songTitle);
+        System.out.println("Thread " + thread.getName() + ", create file: " + songTitle);
         song.put(songTitle);
     }
 }
